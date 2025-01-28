@@ -11,7 +11,7 @@ public class pattern5{
 
 static void column(int col){
     if(col > 0){
-        System.out.print("* ");
+        System.out.print("*  ");
         column(col-1);
         
     }
